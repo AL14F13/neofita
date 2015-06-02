@@ -4,9 +4,9 @@ $(document).ready(function(e) {
  document.addEventListener("deviceready",function(){
 	 audio=window.plugings.lowLatencyAudio;//se esta creado un objeto para primera cargar el audio y luego reproducirlo
 	 audio.preloadFX('b1','audio/C.mp3',function(msg){alert("Error "+msg);});
-	  audio.preloadFX('b2','audio/C.mp3',function(msg){alert("Error "+msg);});
-	   audio.preloadFX('b3','audio/C.mp3',function(msg){alert("Error "+msg);});
-	    audio.preloadFX('b4','audio/C.mp3',function(msg){alert("Error "+msg);});	 
+	  audio.preloadFX('b2','audio/D.mp3',function(msg){alert("Error "+msg);});
+	   audio.preloadFX('b3','audio/E.mp3',function(msg){alert("Error "+msg);});
+	    audio.preloadFX('b4','audio/F.mp3',function(msg){alert("Error "+msg);});	 
 	$('#btnjugar').on('tap',function(){//Asigna a los cuadros
 	
 		var pantalla=$.mobile.getScreenHeight();
